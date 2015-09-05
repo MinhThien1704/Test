@@ -6,6 +6,20 @@
  * @Createdate 31/05/2010, 00:36
  */
 
+#menu{
+position:fixed;
+	z-index:1000;
+	-webkit-box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+	box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+	width:100%;
+	background-color: #e6f5fc;
+	border-top: 1px solid #ccc;
+	bottom:0;
+	left:0;
+	height:28px;
+	overflow:hidden;
+}
+
 #toolbar{
 	position:fixed;
 	z-index:1000;
